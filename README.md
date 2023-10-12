@@ -10,3 +10,6 @@ Trying to set up the basics of rails without models etc. For future documentatio
 2. Setup rspec
    - https://github.com/rspec/rspec-rails
    - Change `.rspec` to require `rails_helper` instead of `spec_helper`
+3. Setup bootstrap and bootstrap_form
+   - https://github.com/twbs/bootstrap-rubygem
+   - https://github.com/bootstrap-ruby/bootstrap_form
