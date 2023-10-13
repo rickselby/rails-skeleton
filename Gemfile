@@ -52,6 +52,12 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
   gem "rspec-rails", "~> 6.0.0"
+  gem "rubocop", "~> 1.57"
+  gem "rubocop-capybara", "~> 2.19"
+  gem "rubocop-performance", "~> 1.19"
+  gem "rubocop-rails", "~> 2.21"
+  gem "rubocop-rake", "~> 0.6.0"
+  gem "rubocop-rspec", "~> 2.24"
 end
 
 group :development do
