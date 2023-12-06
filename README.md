@@ -13,3 +13,4 @@ Trying to set up the basics of rails without models etc. For future documentatio
 3. Setup bootstrap and bootstrap_form
    - https://github.com/twbs/bootstrap-rubygem
    - https://github.com/bootstrap-ruby/bootstrap_form
+4. Setup rubocop

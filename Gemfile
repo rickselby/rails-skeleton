@@ -52,6 +52,11 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
   gem "rspec-rails", "~> 6.0.0"
+  gem "rubocop-rickselby", "~> 0.6", require: false
+  gem "rubocop-rails", require: false
+  gem "rubocop-rails-accessibility", require: false
+  gem "rubocop-rspec", require: false
+  gem "rubocop-capybara", require: false
 end
 
 group :development do
